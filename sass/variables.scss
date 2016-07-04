@@ -1,0 +1,24 @@
+@mixin max-screen($res){
+  @media screen and ( max-width: $res )
+  {
+    @content;
+  }
+}
+
+@mixin screen($res){
+  @media ( max-width: $res )
+  {
+    @content;
+  }
+}
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}

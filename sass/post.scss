@@ -1,0 +1,138 @@
+.post-title-section {
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dadada;
+  text-align: center;
+}
+
+.post-info-wrapper {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+.article-page {
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  margin-top: 40px;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+.post-nav {
+  li {
+    display: inline;
+    float: left;
+    text-align: center;
+    width: 50%;
+    a {
+      position: relative;
+      min-height: 77px;
+      display: block;
+      padding: 16px 46px 24px;
+      text-decoration: none;
+      font-size: 16px;
+      color: #444;
+      font-weight: 700;
+    }
+    strong {
+      position: relative;
+      top: 16px;
+    } 
+    i {
+      color: #ccc;
+      font-size: 18px;
+      position: absolute;
+      top: 50%;
+      margin-top: -10px;
+    }
+  }
+  .next {
+    float: right;
+    box-shadow: -1px 0 0 #e5e5e5,inset 1px 0 0 #e5e5e5;
+    i {
+      right: 10px;
+    }
+  }
+  .previous {
+    float: left;
+    box-shadow: 1px 0 0 #e5e5e5,inset -1px 0 0 #e5e5e5;
+    a {
+      padding-right: 24px;
+    }
+    i {
+      left: 10px;
+    }
+  }
+  .is-nothing {
+    cursor: no-drop;
+  }
+}
+.comment-footer {
+  margin-top: 10px;
+}
+
+.body-copy {
+
+  li {
+    margin-bottom: 3px;
+  }
+
+  blockquote {
+    margin-left: -23px;
+    padding-left: 18px;
+    border-left-width: 4px;
+    border-left-color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    p {
+      margin: 0
+    }
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 160%;
+  font-weight: 300;
+}
+
+.w-richtext ol, .w-richtext ul {
+  overflow: hidden;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-left: 25px;
+}
+
+li {
+  font-weight: 300;
+  p {
+    margin: 0;
+  }
+}
+
+ol {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  font-family: Lato, sans-serif;
+}
+
+blockquote {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border-left: 5px solid #e2e2e2;
+  font-family: Domine;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 400;
+}
