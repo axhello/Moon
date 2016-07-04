@@ -4,12 +4,12 @@
             <a href="/" class="w-nav-brand logo-link">
                 <h1 class="logo-text"><?php $this->options->title(); ?></h1>
             </a>
-            <div class="w-nav-button menu-button">
-                <i class="fa fa-bars" style="font-size: 17px"></i>
+            <div class="w-nav-button menu-button" :class="{'w--open': isOpen}" @click="toggleNav">
+                <i class="icon icon-menu" style="font-size: 17px"></i>
             </div>
         </div>
         <div class="w-nav-overlay" style="display: block">
-            <nav role="navigation" class="w-nav-menu navigation-menu">
+            <nav role="navigation" class="w-nav-menu navigation-menu" :class="{'w--nav-menu-open': isOpen}">
                 <div class="w-hidden-medium w-hidden-small w-hidden-tiny main-subheading">
                     <?php $this->options->description() ?>
                 </div>

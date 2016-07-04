@@ -16,4 +16,5 @@
 	<link rel="stylesheet" href="<?php $this->options->themeUrl('css/main.css'); ?>">
 	<?php $this->header(); ?>   <!-- 通过自有函数输出HTML头部信息 -->
 </head>
+<body>
 <?php $this->need('sidebar.php'); ?>
